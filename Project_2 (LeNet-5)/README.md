@@ -1,1 +1,3 @@
-Test file
+## LeNet-5 vs ANN Comparison on MNIST Digits
+
+This project implements and compares two deep learning models — a traditional Artificial Neural Network (ANN) and the Convolutional Neural Network (LeNet-5) — for handwritten digit classification using the MNIST dataset. The dataset consists of grayscale images (0–9) organized in separate folders, and both models are trained using TensorFlow and Keras with ImageDataGenerator for preprocessing. The ANN model serves as a baseline with fully connected layers, while LeNet-5 leverages convolution and pooling layers for better feature extraction. The models are evaluated on validation data, and their performance is compared based on accuracy and training time, demonstrating that LeNet-5 achieves higher accuracy (~98%) compared to the ANN (~93%) at the cost of slightly longer training time. The project also includes visualization of predictions and a summary table for easy comparison.
